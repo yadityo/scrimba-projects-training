@@ -52,8 +52,7 @@ body {
   margin-bottom: 30px;
 }
 
-.invoice-service p,
-.invoice-price p {
+.invoice-service p {
   font-weight: bold;
 }
 
