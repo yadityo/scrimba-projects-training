@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.title h2 {
+  font-size: 38px;
+}
+
+.tab-service {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  gap: 20px;
+}
+
+.tab-items {
+  border: 1px solid #d5d4d8;
+  border-radius: 7px;
+  padding: 9px 14px;
+}
+
+.tab-items p {
+  color: #4a4e74;
+  font-size: 14px;
+}
+
+.invoice-generate {
+  color: #918e9b;
+}
+
+.invoice-service,
+.invoice-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.invoice-service p,
+.invoice-price p {
+  font-weight: bold;
+}
+
+.invoice-btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  background-color: #3770ed;
+  color: white;
+  padding: 9px 17px;
+  border-radius: 7px;
+}
